@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title> TheLivery</title>
+</head>
+<body>
+  <header id="header">
+    
+      <div class="menu-bar">
+        <div class="logo">
+          <a href="">
+            <img id="logo" src="assets/logo.png" alt="TheLivery">
+            </a>
+        </div>
+          <ul class="nav-ul">
+            <li class="nav-li" >
+             <a class="nav-a" href="#header">HOME</a>
+            </li>
+            <li class="nav-li" >
+              <a class="nav-a" href="#cashback">COMO FUNCIONA</a>
+            </li>
+            <li class="nav-li" >
+              <a class="nav-a" href="#footer">CIDADES</a>
+            </li>
+          </ul>
+            <div class="hamburger" onclick="toggleBar(this)" >
+              <div class="bar"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+        </div>
+      
+      </div>    
+      
+      <div  class="main-header">
+        <div class="content">
+          <div data-aos="fade-down" class="text-container">
+            <h1>Nós valorizamos seu <span>dinheiro</span>.<br> Peça no <span>TheLivery</span> e <br>receba dinheiro de volta.</h1>
+          </div>
+          <div data-aos="fade-down" class="btn-btn">
+            <button class="btn-primary">Baixe aqui</button>
+            <button class="btn-primary" >Saiba Mais</button>
+          </div>
+        </div>
+          <div data-aos="fade-left" class="money-img">
+            <img id="money-img" src="assets/money.jpg" alt="">
+          </div>
+      </div>
+    
+  </header>
+  
+  <section id="cashback" class="cashback">
+    <div data-aos="fade-right" class="big-text">
+    <h1 class="title" >Como funciona ?</h1>
+    <h2 >O cashback é um método de compra e venda em que o consumidor recebe de volta parte do dinheiro gasto em nossas compras. Somos dessemelhante do desconto, já que existe uma recompensação de parte do valor pago pelos bens adquiridos um tempo após a compra.
+
+      Além disso, o retorno do dinheiro pode ser válido para todo o site onde as compras são efetuadas e não especificamente ao preço de um produto ou serviço próprio.
+      </h2>
+    </div>
+  </section>
+
+  <section data-aos="fade-down" class="faq-card">
+    <h1 id="faq-card" class="faq-title" >Perguntas Frequentes</h1>
+    <ul class="faq-item">
+      <li class="faq-list-item">
+        <button onclick="toggle('faq-open')" class="faq-question">
+          O que é o TheLivery?
+        </button>
+        <div id="faq-open" class="faq-open">
+          Conectamos você aos seus Restaurantes preferidos. <br> <br> Você faz seu pedido de forma ágil e fácil pela melhor plataforma online para pedir comida.
+        </div>
+      </li>
+      <li class="faq-list-item">
+        <button  onclick="toggle('faq-open2')"  class="faq-question">
+          Meu pedido atrasou, e agora?
+        </button>
+        <div id="faq-open2" class="faq-open">
+          Você pode entrar em contato com o restaurante através do telefone que consta dentro do seu pedido para saber o motivo do ocorrido, ou se não conseguir realizar a ligação, pode entrar em contato conosco pelo chat.
+        </div>
+      </li>
+      <li class="faq-list-item">
+        <button onclick="toggle('faq-open3')"  class="faq-question">
+          Quem faz as entregas?
+        </button>
+        <div id="faq-open3" class="faq-open">
+          Cada restaurante possui seus próprios motoboys, que realizam o serviço de entrega.
+        </div>
+      </li>
+
+    </ul>
+  </section>
+  
+  <footer id="footer" >
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <ul class="list-footer">
+            <li class="list-item-title"><a id="list-item-title" href="">
+              CIDADES
+            </a></li>
+            <li class="list-item"> <a id="list-item" href="">
+              Vitória da Conquista
+            </a></li>
+            <li class="list-item"> <a id="list-item" href="">
+              Jequié
+            </a></li>
+            <li class="list-item"> <a id="list-item" href="">
+              Itabuna
+            </a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul class="list-footer">
+            <li class="list-item-title"><a id="list-item-title" href="">
+              CONTATO
+            </a></li>
+            <li class="list-item"><a id="list-item" href="">
+              Email:gustavoguufr@gmail.com
+            </a></li>
+            <li class="list-item"><a id="list-item" href="">
+              Tell:(77)988254922
+            </a></li>
+            <li class="list-item"><a id="list-item" href="">
+              Endereço: Bairro: Morada dos Passáros
+            </a></li>
+          </ul>
+        </div>
+        <div class="column">
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="title-light">
+          TheLivery 2018 &copy; A melhor forma de pedir comida online.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
